@@ -1,0 +1,19 @@
+<?php
+
+$finder = PhpCsFixer\Finder::create()
+    ->exclude('vendor')
+    ->exclude('storage')
+    ->exclude('node_modules')
+    ->exclude('components')
+    ->exclude('bootstrap')
+    ->exclude('spec')
+    ->notPath('server.php')
+    ->notPath('public/index.php')
+    ->in(__DIR__)
+;
+return PhpCsFixer\Config::create()
+    ->setRules(array(
+        '@Symfony' => true
+    ))
+    ->setFinder($finder)
+;

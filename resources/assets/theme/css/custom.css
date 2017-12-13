@@ -1,0 +1,74 @@
+.notification-popup {
+	position: fixed;
+    bottom: 5%;
+    right: 1%;
+    background: #fff;
+    padding: 10px 12px;
+    box-shadow: 0px 2px 3px #888;
+}
+
+#changeLogo .modal-body {
+	text-align: center;
+}
+
+.logo-img {
+	height: 150px;
+    padding: 3px;
+    border: 1px solid #e4eaec;
+}
+
+.alert.alert-danger ul {
+    padding: 0;
+}
+
+.alert.alert-danger li {
+    list-style-type: none;
+}
+
+.no-records-available {
+    text-align: center;
+    font-weight: 600;
+}
+
+.card.card-block.card-success {
+    padding: 0 !important;
+    background: #fff;
+    border: none;
+}
+
+.card.card-success .card-title-block {
+    padding: 5px;
+    background: #dff0d8;
+}
+
+hr.dotted {
+    border-top: 1px dashed #e7eaec;
+    color: #ffffff;
+    background-color: #ffffff;
+    height: 1px;
+    margin: 20px 0;
+}
+
+input[readonly] {
+    cursor: not-allowed;
+}
+
+.dz-default.dz-message {
+    display: none;
+}
+
+.box__input {
+    text-align: center;
+    font-size: 2em;
+}
+
+.btn-danger.btn-outline {
+    background: transparent !important;
+    border: 1px solid #ed5565 !important;
+    color: #ed5565 !important;
+}
+
+.btn-danger.btn-outline:hover {
+    background: #ed5565 !important;
+    color: #fff !important;
+}

@@ -1,0 +1,1 @@
+<h1>{{ trans('app.your_access_code') }}: {{$accessCode}}</h1>
